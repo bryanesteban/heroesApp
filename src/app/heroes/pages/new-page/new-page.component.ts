@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { FormControl, FormGroup } from '@angular/forms';
 import { Publisher } from '../../interfaces/hero.interface';
 
 @Component({
@@ -9,7 +9,7 @@ import { Publisher } from '../../interfaces/hero.interface';
 })
 export class NewPageComponent {
 
-  public heroForm = new FormControl({
+  public heroForm = new FormGroup({
     id: new FormControl(''),
     superhero: new FormControl<string>('', {nonNullable: true}),
     publisher: new FormControl<Publisher>(Publisher.DCComics),
@@ -24,5 +24,12 @@ export class NewPageComponent {
     {id: 'Marvel Comics', desc: 'Marvel - Comics'},
 
   ];
+
+  onSubmit():void {
+    console.log({
+      formIsValid: this.heroForm.valid,
+      value: this.heroForm.value
+    })
+  }
 
 }
