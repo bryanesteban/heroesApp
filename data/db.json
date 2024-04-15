@@ -101,7 +101,8 @@
       "publisher": "Marvel Comics",
       "alter_ego": "Steve Rogers",
       "first_appearance": "Captain America Comics #1",
-      "characters": "Steve Rogers"
+      "characters": "Steve Rogers",
+      "alt_img": "https://www.zonanegativa.com/imagenes/2023/09/Captain-america-0.jpg"
     },
     {
       "id": "marvel-iron",
@@ -166,6 +167,15 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "ut-kt_N",
+      "superhero": "Arcanjoluz esteban",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Esteban",
+      "first_appearance": "Comic Prime #1",
+      "characters": "Bryan, esteban, espes anat",
+      "alt_img": "https://i.pinimg.com/564x/16/92/61/1692617223f8383ed57fd09495ce33b6.jpg"
     }
   ]
 }
