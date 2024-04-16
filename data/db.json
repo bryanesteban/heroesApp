@@ -16,36 +16,12 @@
       "characters": "Bruce Wayne"
     },
     {
-      "id": "dc-superman",
-      "superhero": "Superman",
-      "publisher": "DC Comics",
-      "alter_ego": "Kal-El",
-      "first_appearance": "Action Comics #1",
-      "characters": "Kal-El"
-    },
-    {
-      "id": "dc-flash",
-      "superhero": "Flash",
-      "publisher": "DC Comics",
-      "alter_ego": "Jay Garrick",
-      "first_appearance": "Flash Comics #1",
-      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
-    },
-    {
       "id": "dc-green",
       "superhero": "Green Lantern",
       "publisher": "DC Comics",
       "alter_ego": "Alan Scott",
       "first_appearance": "All-American Comics #16",
       "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
-    },
-    {
-      "id": "dc-arrow",
-      "superhero": "Green Arrow",
-      "publisher": "DC Comics",
-      "alter_ego": "Oliver Queen",
-      "first_appearance": "More Fun Comics #73",
-      "characters": "Oliver Queen"
     },
     {
       "id": "dc-wonder",
@@ -175,7 +151,7 @@
       "alter_ego": "Esteban",
       "first_appearance": "Comic Prime #1",
       "characters": "Bryan, esteban, espes anat",
-      "alt_img": "https://i.pinimg.com/564x/16/92/61/1692617223f8383ed57fd09495ce33b6.jpg"
+      "alt_img": "https://pm1.aminoapps.com/6353/fa8bfda3b321def5107adf0e25012079f4504213_00.jpg"
     }
   ]
 }
