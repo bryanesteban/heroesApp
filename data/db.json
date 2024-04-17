@@ -1,8 +1,8 @@
 {
   "users": [
     {
-      "id": "1",
-      "usuario": "John Doe",
+      "id": 1,
+      "user": "John Doe",
       "email": "john.due@gmail.com"
     }
   ],
@@ -13,7 +13,24 @@
       "publisher": "DC Comics",
       "alter_ego": "Bruce Wayne",
       "first_appearance": "Detective Comics #27",
-      "characters": "Bruce Wayne"
+      "characters": "Bruce Wayne",
+      "alt_img": null
+    },
+    {
+      "id": "dc-superman",
+      "superhero": "Superman",
+      "publisher": "DC Comics",
+      "alter_ego": "Kal-El",
+      "first_appearance": "Action Comics #1",
+      "characters": "Kal-El"
+    },
+    {
+      "id": "dc-flash",
+      "superhero": "Flash",
+      "publisher": "DC Comics",
+      "alter_ego": "Jay Garrick",
+      "first_appearance": "Flash Comics #1",
+      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
     },
     {
       "id": "dc-green",
@@ -22,6 +39,14 @@
       "alter_ego": "Alan Scott",
       "first_appearance": "All-American Comics #16",
       "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
+    },
+    {
+      "id": "dc-arrow",
+      "superhero": "Green Arrow",
+      "publisher": "DC Comics",
+      "alter_ego": "Oliver Queen",
+      "first_appearance": "More Fun Comics #73",
+      "characters": "Oliver Queen"
     },
     {
       "id": "dc-wonder",
@@ -77,8 +102,7 @@
       "publisher": "Marvel Comics",
       "alter_ego": "Steve Rogers",
       "first_appearance": "Captain America Comics #1",
-      "characters": "Steve Rogers",
-      "alt_img": "https://www.zonanegativa.com/imagenes/2023/09/Captain-america-0.jpg"
+      "characters": "Steve Rogers"
     },
     {
       "id": "marvel-iron",
