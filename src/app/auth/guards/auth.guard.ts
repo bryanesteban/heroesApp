@@ -1,24 +1,28 @@
 import { Injectable, inject } from '@angular/core';
-import { CanActivateFn, CanMatchFn, Router, UrlTree } from '@angular/router';
-import { tap, Observable, take } from 'rxjs';
-import { AuthService } from '../services/auth.service';
+import { ActivatedRouteSnapshot, CanActivateFn, CanMatchFn, Route, RouterStateSnapshot, UrlSegment } from '@angular/router';
+
 
 @Injectable({providedIn: 'root'})
 export class AuthGuard {
+
 }
 
-const isAuthenticated = (): | boolean | UrlTree | Observable<boolean | UrlTree> | Promise<boolean | UrlTree> => {
-  const authService = inject(AuthService);
-  const router = inject(Router);
-  return authService.checkAuthentication().Pipe(
-      take(1),
-      tap((isAuthenticated: boolean) => {
-          if (!isAuthenticated) {
-              router.navigate(['./auth/login']);
-          }
-      }),
-  );
-}
+export const canActivateGuard: CanActivateFn = ( //Hay que tener en cuenta el tipado CanActiveFn
+  route: ActivatedRouteSnapshot,
+  state: RouterStateSnapshot
+) => {
+  console.log('CanActivate');
+  console.log({ route, state });
 
-export const canActivateGuard:CanActivateFn = isAuthenticated;
-export const canMatchGuard:CanMatchFn = isAuthenticated;
+  return false;
+};
+
+export const canMatchGuard: CanMatchFn = ( //Tipado CanMatchFN
+  route: Route,
+  segments: UrlSegment[]
+) => {
+  console.log('CanMatch');
+  console.log({ route, segments });
+
+  return false;
+};
